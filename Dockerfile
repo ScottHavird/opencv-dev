@@ -8,7 +8,7 @@ ENV OPENCV_VERSION 3.0.0
 RUN apt-get update && apt-get upgrade -y
 
 # ******** NOTES ********
-# cd /Users/scotthavird/Documents/mydockerbuilds/ScottHavird/opencv-dev
+# cd /to/opencv-dev
 # docker build -t opencv-dev .
 # docker run -t -i opencv-dev /bin/bash
 #		The -i flag starts an interactive container. The -t flag creates a pseudo-TTY that attaches stdin and stdout.
