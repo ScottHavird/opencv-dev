@@ -14,13 +14,10 @@ RUN apt-get update && apt-get upgrade -y
 #		The -i flag starts an interactive container. The -t flag creates a pseudo-TTY that attaches stdin and stdout.
 # cd /usr/local/share/OpenCV/samples/cpp
 
-
-# compile the cpp	 	$ g++ opencv_version.cpp -o opencv_version `pkg-config --cflags --libs opencv`
-# run the new program	$ ./opencv_version
-
-# *** CMAKE ****
-# compile the cpp	 	$ g++ opencv_version.cpp -o opencv_version `pkg-config --cflags --libs opencv`
-# run the new program	$ ./opencv_version
+# compile the cpp	 	
+#  $ g++ opencv_version.cpp -o opencv_version `pkg-config --cflags --libs opencv`
+# run the new program	
+#  $ ./opencv_version
 
 # **** INSTALL DEPENDENCIES *****
 RUN apt-get update && apt-get install -y \
