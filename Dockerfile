@@ -1,4 +1,6 @@
 
+ENV HOME /root
+
  # ******** NOTES ********
  # cd /to/opencv-dev
  # docker build -t opencv-dev .
