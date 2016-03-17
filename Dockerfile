@@ -50,6 +50,7 @@ RUN apt-get update && apt-get install -y \
 		x264 \
 		v4l-utils \
 		pkg-config \
+		libvlccore-dev \
 		libvlc-dev
 
 # **** INSTALL OPENCV DEPENDENCIES *****
